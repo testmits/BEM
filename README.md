@@ -1,5 +1,5 @@
 # BEM 
-- Là tiêu chuẩn đặt tên class khi viết CSS
+- Là tiêu chuẩn đặt tên class khi viết `CSS`
 
 ## Ý nghĩa:
 - Viết tắt của: Block Element Modifier
