@@ -1,0 +1,34 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Helvetica Neue";
+    background-color: #f4f4f5;
+}
+
+body > div {
+    margin: auto; 
+}
+
+/* BEM */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 50px;
+}
+
+.btn--success {
+    background-color: #71be34;    
+}
+.btn--warn {
+    background-color: #ffb702;    
+}
+.btn--danger {
+    background-color: #ff623d;    
+}
