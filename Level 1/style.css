@@ -5,6 +5,7 @@ body {
     align-items: center;
     font-family: "Helvetica Neue";
     background-color: #f4f4f5;
+    flex-direction: column;
 }
 
 body > div {
@@ -21,14 +22,39 @@ body > div {
     color: #fff;
     padding: 12px 48px;
     border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.btn--size--l {
+    padding: 20px 60px;
+}
+
+.btn--size--s {
+    padding: 8px 32px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn + .btn {
+    margin-left: 16px;
 }
 
 .btn--success {
     background-color: #71be34;    
 }
+
 .btn--warn {
     background-color: #ffb702;    
 }
+
 .btn--danger {
     background-color: #ff623d;    
+}
+
+.btn--disabled {
+    opacity: 0.5 !important;
+    cursor: default;
 }
