@@ -2,7 +2,7 @@
 - Là tiêu chuẩn đặt tên class khi viết `CSS`
 
 ## Ý nghĩa:
-- Viết tắt của: Block Element Modifier
+- Viết tắt của: `Block Element Modifier`
 - Block: Khối
 - Element: Thành phần trong khối
 - Modifier: Bổ sung ý nghĩa cho `Block` hoặc `Element`
@@ -12,11 +12,11 @@
 - Members đặt class trùng nhau, CSS đè lên nhau
 
 ## Cú pháp
-- .block 
-- .block__element
+- `.block` 
+- `.block__element`
 
-- .block--modifier
-- .block__element--modifier
+- `.block--modifier`
+- `.block__element--modifier`
 
 ## Tính ứng dụng
 - Xây dựng layout website
