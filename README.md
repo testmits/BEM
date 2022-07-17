@@ -15,8 +15,8 @@
 - .block 
 - .block__element
 
-- .block__modifier
-- .block__element__modifier
+- .block--modifier
+- .block__element--modifier
 
 ## Tính ứng dụng
 - Xây dựng layout website
