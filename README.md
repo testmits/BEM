@@ -38,8 +38,8 @@
 
 ## Thực hành
 - Làm button
-    - Enabled: Pointer, hower effect 
-    - Disabled: Arrow, no effect
+    - `Enabled`: `Pointer`, `hower effect` 
+    - `Disabled`: `Arrow`, `no effect`
 - Làm message
 - Làm thành phần trên website
 
